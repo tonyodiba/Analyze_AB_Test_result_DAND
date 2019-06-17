@@ -17,9 +17,14 @@ I created a regression model to test for impact of countries on conversion. I al
 ***
 ### Conclusion 
 * Using different methodology in part II and part III, p-value changed, but in either case, we fail to reject the null as value is still higher than alpha.
+
 * Based on this analysis, there is no practical significance in rolling out the new page over old page. Conversion rate for old page is better than the new page, albeit not by a lot.
+
 * Comparing users among different countries also doesn't show considerable difference in conversion.
+
 * In trying to determine the effect of time on the conversion we used the day of the week and the period of the day as categorical variables and we say that generally these variables had little to no effect on conversion except for the interaction between saturday and monday and the page groups. For these two variables they seemed to show a negative effect on conversion relative to Tuesday which was our refrence category.
-* Lastly, binning the timestamps into periods might have resulted in loss of information. To test this, further analysis can be carried out using the hours of the day as dummy varibles.[4]
+
+* Lastly, binning the timestamps into periods might have resulted in loss of information. To test this, further analysis can be carried out using the hours of the day as dummy varibles.
+
 > **consideration: 
 These inferences are strictly based on data on hand. This analysis acknowledges its limitations due to factors not included in the data.**
