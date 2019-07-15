@@ -1,4 +1,4 @@
-# Analyze_AB_Test_Result_DAND
+# Analyze_Result_of_AB_Test_DAND
 Goal of this project is to understand the results of an A/B test run by an e-commerce website. 
 ***
 ### Overview
